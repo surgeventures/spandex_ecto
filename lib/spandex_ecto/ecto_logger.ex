@@ -46,7 +46,7 @@ defmodule SpandexEcto.EctoLogger do
         completion_time: now,
         service: service,
         resource: resource,
-        type: :db,
+        type: :sql,
         sql_query: [
           query: query,
           rows: inspect(num_rows),

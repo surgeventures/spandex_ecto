@@ -5,10 +5,17 @@ See [Conventional Commits](Https://conventionalcommits.org) for commit guideline
 
 <!-- changelog -->
 
+## [v0.8.0](https://github.com/spandex-project/spandex_ecto/compare/v0.7.1...surgeventures:spandex_ecto:v0.8.0) (2024-04-25)
+
+### What's Changed
+* Change type of spans from `db` to `sql` to be consistent with Datadog by @moleskin-smile
+
+
 ## [v0.7.1](https://github.com/spandex-project/spandex_ecto/compare/v0.7.0...surgeventures:spandex_ecto:v0.7.1) (2024-02-29)
 
 ### What's Changed
 * Allow to turn off detailed spans in EctoLogger through :telemetry.attach/4 by @Artur-Sulej
+
 
 ## [v0.7.0](https://github.com/spandex-project/spandex_ecto/compare/0.6.2...v0.7.0) (2021-12-11)
 
