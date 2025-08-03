@@ -5,6 +5,11 @@ See [Conventional Commits](Https://conventionalcommits.org) for commit guideline
 
 <!-- changelog -->
 
+## [v0.9.0](https://github.com/spandex-project/spandex_ecto/compare/v0.7.0...surgeventures:spandex_ecto:v0.9.0) (2025-08-03)
+
+### What's Changed
+* Change main dependency `spandex` to fresha's fork. By @emancu
+
 ## [v0.8.0](https://github.com/spandex-project/spandex_ecto/compare/v0.7.1...surgeventures:spandex_ecto:v0.8.0) (2024-04-25)
 
 ### What's Changed

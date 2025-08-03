@@ -20,7 +20,7 @@ Add `spandex_ecto` to your list of dependencies in `mix.exs`:
 ```elixir
 def deps do
   [
-    {:spandex_ecto, "~> 0.7"}
+    {:spandex_ecto, "~> 0.9", organization: "fresha"},
   ]
 end
 ```

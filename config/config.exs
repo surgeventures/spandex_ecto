@@ -1,11 +1,11 @@
 # This file is responsible for configuring your application
 # and its dependencies with the aid of the Mix.Config module.
-use Mix.Config
+import Config
 
 config :git_ops,
   mix_project: SpandexEcto.MixProject,
   changelog_file: "CHANGELOG.md",
-  repository_url: "https://github.com/spandex-project/spandex_ecto",
+  repository_url: "https://github.com/surgeventures/spandex_ecto",
   types: [],
   # Instructs the tool to manage your mix version in your `mix.exs` file
   # See below for more information
