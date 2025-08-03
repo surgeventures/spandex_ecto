@@ -1,8 +1,8 @@
 defmodule SpandexEcto.MixProject do
   use Mix.Project
 
-  @source_url "https://github.com/spandex-project/spandex_ecto"
-  @version "0.8.0"
+  @source_url "https://github.com/surgeventures/spandex_ecto"
+  @version "0.9.0"
 
   def project do
     [
@@ -60,8 +60,10 @@ defmodule SpandexEcto.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
+      {:spandex, "~> 4.1", organization: "fresha", hex: :spandex_fresha},
+
       {:ex_doc, ">= 0.0.0", only: :dev},
-      {:spandex, "~> 2.2 or ~> 3.0"}
+      {:git_ops, "~> 2.6.1", only: :dev}
     ]
   end
 end
